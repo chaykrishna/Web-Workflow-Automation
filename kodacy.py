@@ -5,11 +5,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, StaleElementReferenceException
 
-# ===== CONFIG =====
-DEBUGGER_ADDRESS = "127.0.0.1:9222"   # match Chrome remote debugging port
-MAX_ITEMS = 1000                      # safety stop
-WAIT = 1                               # page ready wait
-TIMEOUT_BTN = 0.3                      # ultra-fast button wait
+DEBUGGER_ADDRESS = "127.0.0.1:9222"   
+MAX_ITEMS = 1000                     
+WAIT = 1                             
+TIMEOUT_BTN = 0.3                     
 
 MARK_SELECTORS = [
     (By.XPATH, "//button[contains(., 'Mark as Completed')]"),
@@ -48,7 +47,7 @@ def wait_page_ready(driver):
     try:
         WebDriverWait(driver, WAIT).until(lambda d: d.execute_script("return document.readyState") == "complete")
     except TimeoutException:
-        pass  # skip if too slow — keep moving
+        pass  
 
 def main():
     driver = connect_driver()
