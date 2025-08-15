@@ -72,5 +72,3 @@ python3 kodacy.py
 This project is open-source and free to use under the MIT License.
 
 ---
-
-**Just clone, set up, and run—everything is covered above in a single continuous flow. No fragmented steps. Paste this file into your repo as `README.md` and you’re set!**
