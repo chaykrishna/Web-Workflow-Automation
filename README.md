@@ -1,6 +1,6 @@
-# WebWorkflowAutomation
+# Web Workflow Automation
 
-**WebWorkflowAutomation** is a Python-based Selenium bot that automates repetitive multi-step web tasks. It intelligently detects interactive elements such as “Mark as Completed” buttons, navigates sequential pages, and logs progress—dramatically reducing manual effort and saving time.
+**Web Workflow Automation** is a Python-based Selenium bot that automates repetitive multi-step web tasks. It intelligently detects interactive elements such as “Mark as Completed” buttons, navigates sequential pages, and logs progress—dramatically reducing manual effort and saving time.
 
 ---
 
