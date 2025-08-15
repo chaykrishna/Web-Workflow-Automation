@@ -35,7 +35,7 @@ pip install -r requirements.txt
 google-chrome --remote-debugging-port=9222 --user-data-dir="$HOME/selenium-profile"
 ```
 
-Then, in `kodacy_bot.py`, make sure this line exists (edit if needed):
+Then, in `kodacy.py`, make sure this line exists (edit if needed):
 
 ```python
 DEBUGGER_ADDRESS = "127.0.0.1:9222"
