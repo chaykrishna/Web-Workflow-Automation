@@ -27,7 +27,7 @@
 Run all the following in sequence for a complete setup and launch:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/chaykrishna/Web-Workflow-Automation
 cd WebWorkflowAutomation
 python3 -m venv venv
 source venv/bin/activate
