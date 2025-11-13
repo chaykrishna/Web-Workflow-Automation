@@ -28,9 +28,7 @@ Run all the following in sequence for a complete setup and launch:
 
 ```bash
 git clone https://github.com/chaykrishna/Web-Workflow-Automation
-cd WebWorkflowAutomation
-python3 -m venv venv
-source venv/bin/activate
+cd Web-Workflow-Automation
 pip install -r requirements.txt
 google-chrome --remote-debugging-port=9222 --user-data-dir="$HOME/selenium-profile"
 ```
@@ -44,7 +42,7 @@ DEBUGGER_ADDRESS = "127.0.0.1:9222"
 Finally, start the automation:
 
 ```bash
-python3 kodacy.py
+python kodacy.py
 ```
 
 ---
